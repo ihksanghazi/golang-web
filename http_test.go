@@ -22,6 +22,5 @@ func TestHttp (t *testing.T){
 	body,_:=io.ReadAll(response.Body)
 
 	bodyString := string(body)
-
 	fmt.Println(bodyString)
 }
